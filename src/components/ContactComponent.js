@@ -33,6 +33,8 @@ class Contact extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
 }
 
+
+
     handleSubmit(values) {
         console.log("Current state is: " + JSON.stringify(values));
         alert("Current state is: " + JSON.stringify(values));
@@ -178,7 +180,7 @@ class Contact extends Component {
                                     <div className="form-check">
                                         <Label check>
                                             <Control.checkbox
-                                                model="agree"
+                                                model=".agree"
                                                 name="agree"
                                                 className="form-check-input"
                                             /> {' '}
